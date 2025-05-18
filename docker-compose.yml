@@ -1,0 +1,5 @@
+services:
+  musicbot:
+    build: .
+    container_name: discord-music-bot
+    restart: unless-stopped
